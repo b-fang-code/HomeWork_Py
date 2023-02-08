@@ -25,8 +25,8 @@ new_list.append(number)
 new_list = set(new_list)
 new_list = list(new_list)
 new_list.sort()
-print(f'new {new_list}')
-print(f'my {my_list}')
+# print(f'new {new_list}')
+# print(f'my {my_list}')
 
 near_num_min = 0
 near_num_max = 0
