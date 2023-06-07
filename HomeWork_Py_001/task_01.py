@@ -5,7 +5,7 @@
 
 number = int(input('Введите трёхзначное число: '))
 if number < 100 or number > 999:
-    print('Число не трёхначное!')
+    print('Число не трёхзначное!')
 else:
     print(f'Сумма цифр числа {number} равна {((number // 100) + (number // 10) % 10) + (number % 10)}')
 
